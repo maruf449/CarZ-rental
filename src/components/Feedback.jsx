@@ -35,7 +35,7 @@ const Feedback = () => {
           </p>
         </motion.div>
         <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
-          <Image
+          <img
             src="/aboutus.png"
             className="px-0 lg:px-4 xl:px-14 w-full h-auto object-cover rounded-3xl"
             alt=""

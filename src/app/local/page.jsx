@@ -31,7 +31,7 @@ const Local = () => {
               exceptional.
             </p>
           </div>
-          <Image src="/local.jpeg" className="w-full h-full" alt="" />
+          <img src="/local.jpeg" className="w-full h-full" alt="" />
         </div>
         <h2 className="text-center text-md md:text-4xl text-slate-500 my-16">
           Whether you seek lavish indulgence or spacious versatility, our

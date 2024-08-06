@@ -13,7 +13,7 @@ const Header = () => {
         href="/"
         className="text-third-color font-bold text-2xl pl-5 md:pl-0"
       >
-        Code Scrapper
+        CarZ Codder
       </Link>
       <div
         className="md:hidden flex flex-col gap-1 pr-5"

@@ -14,7 +14,7 @@ const InsightCard2 = ({ imgUrl, title, subtitle, index, isForm, form }) => {
       variants={fadeIn("up", "string", index * 0.5, 1)}
       className="flex justify-center md:flex-row flex-col gap-4"
     >
-      <Image
+      <img
         src={imgUrl}
         className="md:w-[350px] w-full h-[250px] rounded-[32px] object-cover"
         alt=""

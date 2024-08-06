@@ -7,7 +7,7 @@ import Image from "next/image";
 const Subfooter = () => {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 rounded-lg shadow-[0_2px_15px_-3px-rgba(0,0,0,0.07),0_10px_20px_-2px-rgba(0,0,0,0.04)] md:flex-row relative bg-gray-950">
-      <Image
+      <img
         src="/lower-banner.jpg"
         alt=""
         className="h-96 w-full object-cover md:h-[60vh] lg:h-[80vh]"

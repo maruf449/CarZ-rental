@@ -6,7 +6,7 @@ const ExploreCard = ({ world }) => {
   return (
     <div className="text-center w-full sm:mx-auto mt-16 shadow-xl text-gray-900 px-10 py-6 gradient-05 sm:p-8 rounded-lg border-third-color border-2 relative  hover:shadow-third-color">
       <div className="mx-auto w-32 h-32 relative -mt-[85px] border-4 border-white rounded-full overflow-hidden">
-        <Image
+        <img
           src={world.imgUrl}
           alt=""
           className="object-cover object-center h-32"

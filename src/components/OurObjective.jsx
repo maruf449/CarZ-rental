@@ -16,7 +16,7 @@ const OurObjective = () => {
           {homeCards?.map((car, index) => (
             <div key={index} className="rounded shadow-lg bg0-white">
               <div className="w-full relative">
-                <Image src={car.img} alt="" className="w-full object-cover" />
+                <img src={car.img} alt="" className="w-full object-cover" />
               </div>
               <div className="font-bold text-xl mb-2 text-third-color p-2">
                 {car.title}

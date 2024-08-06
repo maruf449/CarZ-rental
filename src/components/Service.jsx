@@ -25,7 +25,7 @@ const Service = ({ service }) => {
             {service.text}
           </p>
           <div className="w-11/12 lg:w-10/12">
-            <Image
+            <img
               src={service.img}
               className="w-full h-full object-contain"
               alt=""
